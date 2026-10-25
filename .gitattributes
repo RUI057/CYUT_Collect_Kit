@@ -1,0 +1,4 @@
+# Windows 批次檔必須是 CRLF：cmd 遇到 LF 行尾可能找不到 goto 標籤、解析錯亂。
+# 這個專案常被「Download ZIP」下載，所以倉庫內就直接存 CRLF，並禁止任何換行轉換（-text），
+# 不管是 clone、ZIP 還是 Windows 的 autocrlf 設定，拿到的都是原樣的 CRLF。
+*.bat -text

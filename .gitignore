@@ -1,0 +1,9 @@
+# 收集到的資料與打包檔：留在自己電腦，打包後傳給組長，不要進版控
+dynamic_dataset/
+手語資料_*.zip
+手語資料_*/
+
+__pycache__/
+*.pyc
+.venv/
+.DS_Store
